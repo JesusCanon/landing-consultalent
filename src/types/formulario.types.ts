@@ -1,3 +1,5 @@
+// src/types/formulario.types.ts
+
 export interface FormularioData {
   empresa: string;
   nombre: string;
@@ -8,4 +10,5 @@ export interface FormularioData {
   procesoActual: string;
   principalProblema: string;
   interes: string;
+  aceptaDatos: boolean;
 }

@@ -11,9 +11,14 @@ function FooterSection() {
             <h3 className="text-2xl font-bold text-white">Consultalent</h3>
 
             <p className="mt-4 leading-7">
-              Una plataforma diseñada para ayudar a las pequeñas y medianas
-              empresas a optimizar sus procesos de reclutamiento y selección de
-              personal.
+              Consultalent ya acompaña a empresas en procesos de reclutamiento y
+              selección de personal, así como en formación en competencias
+              socioemocionales.
+              <br />
+              <br />
+              Ahora estamos trabajando para ir más allá mediante el desarrollo
+              de una plataforma tecnológica que ayude a las PYMES a optimizar
+              sus procesos de contratación.
             </p>
           </div>
 
@@ -45,15 +50,44 @@ function FooterSection() {
           <div>
             <h4 className="font-semibold text-white mb-5">Contacto</h4>
 
-            <p>consultalent@consultalent.co</p>
+            <div className="space-y-4 text-gray-300">
+              <p>📧 contacto@consultalent.co</p>
+
+              <p>📱 300-8899762</p>
+
+              <p className="leading-7">
+                📍 Cra 4 · 13 – 97
+                <br />
+                Edificio Oficentro
+                <br />
+                Cali - Colombia
+              </p>
+
+              <a
+                href="https://consultalent.co/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="
+                mt-4
+                block
+                text-blue-400
+                hover:text-blue-300
+                transition
+            "
+              >
+                🌐 www.consultalent.co
+              </a>
+
+              <p className="mt-4 text-sm text-gray-400">
+                Servicios de reclutamiento y selección, así como formación en
+                competencias socioemocionales.
+              </p>
+            </div>
           </div>
         </div>
 
         <div className="border-t border-slate-800 mt-14 pt-8 text-center">
-          <p>
-            © {new Date().getFullYear()} Consultalent. Todos los derechos
-            reservados.
-          </p>
+          <p>© 2024 Consultalent. Todos los derechos reservados.</p>
         </div>
       </div>
     </footer>

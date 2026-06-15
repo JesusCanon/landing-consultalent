@@ -1,6 +1,7 @@
 import { useState } from "react";
 import type { FormularioData } from "../types/formulario.types";
 import { enviarFormulario } from "../services/googleSheets.service";
+import { CheckCircle } from "lucide-react";
 
 function FormSection() {
   const [formData, setFormData] = useState<FormularioData>({
@@ -239,8 +240,33 @@ function FormSection() {
           </button>
 
           {mensaje && (
-            <div className="bg-green-50 border border-green-300 text-green-700 rounded-xl p-4">
-              {mensaje}
+            <div className="mt-8">
+              <div
+                className="
+      bg-green-50
+      border
+      border-green-200
+      rounded-3xl
+      p-10
+      text-center
+      shadow-sm
+    "
+              >
+                <CheckCircle className="mx-auto text-green-600" size={70} />
+
+                <h3 className="mt-6 text-3xl font-bold text-slate-900">
+                  ¡Gracias por participar!
+                </h3>
+
+                <p className="mt-5 text-gray-600 leading-8">
+                  Tu información fue registrada correctamente.
+                  <br />
+                  <br />
+                  Cuando iniciemos las pruebas de Consultalent, podremos
+                  contactarte para mostrarte la plataforma y recibir tus
+                  comentarios.
+                </p>
+              </div>
             </div>
           )}
 

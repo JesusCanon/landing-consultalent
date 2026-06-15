@@ -1,7 +1,6 @@
 import type { FormularioData } from "../types/formulario.types";
 
-const API_URL =
-  "https://script.google.com/macros/s/AKfycbztgaDi33F2kw4nZ5BWY2Upp_JvYPjT_hMybC4-pXdA9VPZS-0nl-eQ-0TlCqt4P8yI/exec";
+const API_URL = import.meta.env.VITE_API_URL;
 
 export const enviarFormulario = async (data: FormularioData) => {
   const formData = new URLSearchParams();
