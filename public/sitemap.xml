@@ -6,7 +6,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 
 <loc>
-https://consultalent.vercel.app/
+https://landing-consultalent.vercel.app/
 </loc>
 
 <priority>
@@ -18,7 +18,7 @@ https://consultalent.vercel.app/
 <url>
 
 <loc>
-https://consultalent.vercel.app/privacy-policy
+https://landing-consultalent.vercel.app/privacy-policy
 </loc>
 
 <priority>
@@ -30,7 +30,7 @@ https://consultalent.vercel.app/privacy-policy
 <url>
 
 <loc>
-https://consultalent.vercel.app/terms
+https://landing-consultalent.vercel.app/terms
 </loc>
 
 <priority>
