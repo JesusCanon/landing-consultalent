@@ -2,13 +2,19 @@
 
 export interface FormularioData {
   empresa: string;
+  nit: string;
   nombre: string;
   cargo: string;
   whatsapp: string;
   correo: string;
+  numeroEmpleados: string;
   contratacionesMes: string;
-  procesoActual: string;
+  comoAtraesTalento: string;
+  comoAtraesTalentoOtro?: string;
+  comoOrganizasSeleccion: string;
+  comoOrganizasSeleccionOtro?: string;
   principalProblema: string;
+  principalProblemaOtro?: string;
   interes: string;
   aceptaDatos: boolean;
 }

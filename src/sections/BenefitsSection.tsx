@@ -1,47 +1,55 @@
-import { Users, Clock3, FolderKanban, BadgeDollarSign } from "lucide-react";
+import {
+  Target,
+  BrainCircuit,
+  TrendingDown,
+  HeartHandshake,
+} from "lucide-react";
 
 function BenefitsSection() {
   const benefits = [
     {
-      icon: <Users className="text-blue-600" size={28} />,
-      title: "Centraliza tus candidatos",
+      icon: <Target className="text-blue-600" size={28} />,
+      title: "1) Cubre tus vacantes rápidamente",
       description:
-        "Organiza toda la información de los postulantes en un solo lugar y evita perder oportunidades.",
+        "Atrae candidatos calificados a tus vacantes activas y acelera la difusión de tus convocatorias para no detener la operación de tu Organización.",
     },
     {
-      icon: <Clock3 className="text-blue-600" size={28} />,
-      title: "Reduce tiempos de contratación",
+      icon: <BrainCircuit className="text-blue-600" size={28} />,
+      title: "2) Centraliza candidatos y Match con IA",
       description:
-        "Dedica menos tiempo a tareas operativas y enfócate en seleccionar mejor.",
+        "Espacio de trabajo donde podrás organizar todos tus postulantes y optimizar tiempos gracias a la Inteligencia Artificial que analiza la compatibilidad entre vacante y candidato.",
     },
     {
-      icon: <FolderKanban className="text-blue-600" size={28} />,
-      title: "Procesos más organizados",
+      icon: <TrendingDown className="text-blue-600" size={28} />,
+      title: "3) Mide rotación y recibe planes de mejora con IA",
       description:
-        "Haz seguimiento a cada candidato y mantén tus procesos bajo control.",
+        "Herramientas integradas para medir la satisfacción laboral periódica y aplicar encuestas de retiro, obteniendo insumos cuantitativos y planes de acción para disminuir la rotación.",
     },
     {
-      icon: <BadgeDollarSign className="text-blue-600" size={28} />,
-      title: "Paga solo por las vacantes que necesites",
+      icon: <HeartHandshake className="text-blue-600" size={28} />,
+      title: "4) Servicios humanos especializados de Consultalent",
       description:
-        "Publica una vacante cuando la necesites y accede a difusión y, en el futuro, a un banco de hojas de vida, sin asumir costos elevados.",
+        "La posibilidad opcional de adquirir nuestros servicios de reclutamiento experto, selección y talleres en competencias socioemocionales para sacar el máximo provecho a tu equipo.",
     },
   ];
 
   return (
-    <section id="beneficios" className="py-28 bg-slate-50">
+    <section id="beneficios" className="py-24 bg-slate-100">
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center">
-          <h2 className="text-4xl font-bold">¿Qué buscamos lograr?</h2>
+          <span className="text-blue-600 font-semibold text-sm uppercase tracking-wider">
+            Propuesta de Valor
+          </span>
+          <h2 className="text-3xl sm:text-4xl font-bold mt-2 text-slate-900">
+            ¿Qué queremos lograr en tu Organización?
+          </h2>
 
-          <p className="mt-6 text-gray-600 max-w-3xl mx-auto leading-8">
-            Estamos construyendo una solución pensada para pequeñas y medianas
-            empresas que buscan contratar de manera más simple, organizada y
-            accesible.
+          <p className="mt-4 text-gray-600 max-w-3xl mx-auto leading-relaxed text-base sm:text-lg">
+            Combinamos tecnología de vanguardia y análisis de talento para impulsar el crecimiento y la estabilidad del equipo humano de tu Organización.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8 mt-20">
+        <div className="grid md:grid-cols-2 gap-8 mt-16">
           {benefits.map((benefit) => (
             <div
               key={benefit.title}
@@ -51,7 +59,7 @@ function BenefitsSection() {
                 p-8
                 shadow-sm
                 border
-                border-gray-200
+                border-slate-200/80
                 hover:shadow-xl
                 transition
                 duration-300
@@ -61,9 +69,11 @@ function BenefitsSection() {
                 {benefit.icon}
               </div>
 
-              <h3 className="text-2xl font-bold mt-6">{benefit.title}</h3>
+              <h3 className="text-xl sm:text-2xl font-bold mt-6 text-slate-900">
+                {benefit.title}
+              </h3>
 
-              <p className="mt-4 text-gray-600 leading-7">
+              <p className="mt-4 text-gray-600 leading-relaxed">
                 {benefit.description}
               </p>
             </div>

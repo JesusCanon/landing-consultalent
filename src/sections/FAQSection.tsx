@@ -1,106 +1,105 @@
-import { CircleHelp, Building2, CreditCard, Rocket, Users } from "lucide-react";
+import {
+  CircleHelp,
+  Building2,
+  Rocket,
+  BrainCircuit,
+  TrendingDown,
+  HeartHandshake,
+} from "lucide-react";
 
 function FAQSection() {
   return (
-    <section className="bg-slate-100 py-28">
+    <section className="bg-slate-100 py-24">
       <div className="max-w-5xl mx-auto px-6">
         <div className="text-center">
-          <h2 className="text-4xl font-bold">Preguntas frecuentes</h2>
+          <span className="text-blue-600 font-semibold text-sm uppercase tracking-wider">
+            Resolviendo tus dudas
+          </span>
+          <h2 className="text-3xl sm:text-4xl font-bold mt-2 text-slate-900">
+            Preguntas frecuentes
+          </h2>
 
-          <p className="mt-6 text-gray-600 max-w-3xl mx-auto leading-8">
-            Queremos construir una solución realmente útil para las pequeñas y
-            medianas empresas. Estas son algunas preguntas frecuentes.
+          <p className="mt-4 text-gray-600 max-w-3xl mx-auto leading-relaxed text-base sm:text-lg">
+            Todo lo que necesitas saber sobre el próximo lanzamiento BETA de Consultalent para tu Organización.
           </p>
         </div>
 
-        <div className="mt-20 space-y-8">
+        <div className="mt-16 space-y-6">
           {/* Pregunta 1 */}
-
-          <div className="bg-white rounded-3xl shadow-sm border border-gray-200 p-8">
+          <div className="bg-white rounded-3xl shadow-sm border border-slate-200/80 p-8">
             <div className="flex items-center gap-4">
-              <Rocket className="text-blue-600" />
-
-              <h3 className="font-bold text-xl">
-                ¿Consultalent ya está disponible?
+              <Rocket className="text-blue-600 flex-shrink-0" />
+              <h3 className="font-bold text-xl text-slate-900">
+                ¿Cuándo estará disponible la plataforma Consultalent?
               </h3>
             </div>
-
-            <p className="text-gray-600 mt-6 leading-7">
-              Actualmente estamos validando la solución con empresas y
-              recopilando información para construir una plataforma realmente
-              útil.
+            <p className="text-gray-600 mt-4 leading-relaxed">
+              ¡Falta muy poco! En tan solo un par de días lanzaremos la plataforma en versión BETA. Si registras tu Organización en nuestro formulario, recibirás de primera mano tus credenciales de acceso de manera gratuita.
             </p>
           </div>
 
           {/* Pregunta 2 */}
-
-          <div className="bg-white rounded-3xl shadow-sm border border-gray-200 p-8">
+          <div className="bg-white rounded-3xl shadow-sm border border-slate-200/80 p-8">
             <div className="flex items-center gap-4">
-              <CreditCard className="text-blue-600" />
-
-              <h3 className="font-bold text-xl">
-                ¿Será necesario pagar una suscripción mensual?
+              <BrainCircuit className="text-indigo-600 flex-shrink-0" />
+              <h3 className="font-bold text-xl text-slate-900">
+                ¿Cómo funciona el Match con IA para las vacantes?
               </h3>
             </div>
-
-            <p className="text-gray-600 mt-6 leading-7">
-              Estamos evaluando diferentes alternativas. Una de ellas es
-              permitir que las empresas paguen únicamente por las vacantes que
-              necesiten, evitando costos elevados y adaptándonos mejor a las
-              PYMES.
+            <p className="text-gray-600 mt-4 leading-relaxed">
+              Nuestra tecnología de Inteligencia Artificial analiza y contrasta el perfil exigido en la vacante contra las competencias y experiencia consignadas en la hoja de vida del postulante, ordenando automáticamente a los candidatos según su porcentaje de afinidad.
             </p>
           </div>
 
           {/* Pregunta 3 */}
-
-          <div className="bg-white rounded-3xl shadow-sm border border-gray-200 p-8">
+          <div className="bg-white rounded-3xl shadow-sm border border-slate-200/80 p-8">
             <div className="flex items-center gap-4">
-              <Building2 className="text-blue-600" />
-
-              <h3 className="font-bold text-xl">
-                ¿Qué tipo de empresas buscamos?
+              <TrendingDown className="text-sky-600 flex-shrink-0" />
+              <h3 className="font-bold text-xl text-slate-900">
+                ¿De qué manera ayuda a disminuir la rotación de personal?
               </h3>
             </div>
-
-            <p className="text-gray-600 mt-6 leading-7">
-              Principalmente pequeñas y medianas empresas que realizan procesos
-              de contratación y desean optimizar su gestión de candidatos.
+            <p className="text-gray-600 mt-4 leading-relaxed">
+              Consultalent incluye módulos para aplicar encuestas de satisfacción laboral periódicas y encuestas de retiro (motivos de salida). La plataforma consolida estos datos cuantitativos e identifica patrones para recomendar planes estratégicos de retención.
             </p>
           </div>
 
           {/* Pregunta 4 */}
-
-          <div className="bg-white rounded-3xl shadow-sm border border-gray-200 p-8">
+          <div className="bg-white rounded-3xl shadow-sm border border-slate-200/80 p-8">
             <div className="flex items-center gap-4">
-              <Users className="text-blue-600" />
-
-              <h3 className="font-bold text-xl">
-                ¿Quién está detrás de Consultalent?
+              <Building2 className="text-blue-600 flex-shrink-0" />
+              <h3 className="font-bold text-xl text-slate-900">
+                ¿Para qué tipo de Organizaciones está recomendada?
               </h3>
             </div>
-
-            <p className="text-gray-600 mt-6 leading-7">
-              Consultalent ya acompaña a empresas mediante servicios de
-              reclutamiento y selección de personal, así como formación en
-              competencias socioemocionales. Ahora buscamos complementar esa
-              experiencia con soluciones tecnológicas.
+            <p className="text-gray-600 mt-4 leading-relaxed">
+              Está concebida para cualquier Organización que requiera gestionar eficientemente sus procesos de selección, agilizar el filtrado de candidatos y mantener un control proactivo del clima y la retención del talento humano.
             </p>
           </div>
 
           {/* Pregunta 5 */}
-
-          <div className="bg-white rounded-3xl shadow-sm border border-gray-200 p-8">
+          <div className="bg-white rounded-3xl shadow-sm border border-slate-200/80 p-8">
             <div className="flex items-center gap-4">
-              <CircleHelp className="text-blue-600" />
-
-              <h3 className="font-bold text-xl">
-                ¿Participar tiene algún costo?
+              <HeartHandshake className="text-emerald-600 flex-shrink-0" />
+              <h3 className="font-bold text-xl text-slate-900">
+                ¿Cómo puedo combinar la plataforma con los servicios humanos de Consultalent?
               </h3>
             </div>
+            <p className="text-gray-600 mt-4 leading-relaxed">
+              Además de las herramientas tecnológicas, puedes acceder al acompañamiento personalizado de nuestro equipo de psicólogos y consultores para procesos de selección avanzados o capacitaciones en competencias socioemocionales.
+            </p>
+          </div>
 
-            <p className="text-gray-600 mt-6 leading-7">
-              No. Participar en esta etapa de validación es completamente
-              gratuito.
+          {/* Pregunta 6 */}
+          <div className="bg-white rounded-3xl shadow-sm border border-slate-200/80 p-8">
+            <div className="flex items-center gap-4">
+              <CircleHelp className="text-blue-600 flex-shrink-0" />
+              <h3 className="font-bold text-xl text-slate-900">
+                ¿Tiene algún valor económico probar la versión BETA?
+              </h3>
+            </div>
+            <p className="text-gray-600 mt-4 leading-relaxed">
+              No. El acceso a la versión BETA es totalmente gratuito para las Organizaciones registradas durante esta etapa de lanzamiento.
             </p>
           </div>
         </div>
