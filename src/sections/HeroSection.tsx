@@ -33,7 +33,7 @@ function HeroSection() {
 
         {/* Descripción */}
         <p className="mt-6 text-base sm:text-lg lg:text-xl text-slate-300 max-w-4xl leading-relaxed">
-          Centraliza vacantes, agiliza contrataciones con nuestro{" "}
+          Recluta el talento necesario para cubrir tus vacantes, centraliza procesos de selección, agiliza revisiones con nuestro{" "}
           <strong className="text-white font-semibold">Match de IA</strong>, mide la satisfacción laboral con encuestas periódicas y comprende los motivos de retiro para reducir la rotación de tu personal.
         </p>
 
