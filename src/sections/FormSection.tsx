@@ -562,7 +562,7 @@ function FormSection() {
                 className="mt-1 h-5 w-5 text-blue-600 rounded focus:ring-blue-500 border-slate-300"
               />
               <span className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                Autorizo a Consultalent para recolectar y tratar mis datos personales de acuerdo con la Ley 1581 de 2012 de Colombia, exclusivamente para asignación de credenciales BETA, validación de la solución y futuras comunicaciones corporativas.
+                Autorizo de manera expresa a Consultalent para recolectar y tratar mis datos personales de acuerdo con la Ley 1581 de 2012 de Colombia, exclusivamente para la asignación de credenciales BETA, la validación de la solución y futuras comunicaciones corporativas. Asimismo, acepto y declaro conocer que Consultalent se reserva el derecho de admisión para la selección de los participantes de la prueba BETA.
               </span>
             </label>
           </div>
