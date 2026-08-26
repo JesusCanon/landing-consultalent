@@ -9,7 +9,7 @@ export const enviarFormulario = async (data: FormularioData) => {
   formData.append("nit", data.nit);
   formData.append("nombre", data.nombre);
   formData.append("cargo", data.cargo);
-  formData.append("whatsapp", `'${data.whatsapp ? `+57 ${data.whatsapp}` : ""}`);
+  formData.append("whatsapp", data.whatsapp);
   formData.append("correo", data.correo);
   formData.append("numeroEmpleados", data.numeroEmpleados);
   formData.append("contratacionesMes", data.contratacionesMes);
