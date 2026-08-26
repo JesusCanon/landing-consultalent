@@ -14,12 +14,12 @@ function Home() {
     <>
       <Navbar />
       <HeroSection />
+      <FormSection />
       <ProblemSection />
       <SolutionSection />
       <BenefitsSection />
       <HowItWorksSection />
       <CTASection />
-      <FormSection />
       <FAQSection />
       <FooterSection />
     </>
